@@ -22,9 +22,34 @@
 </div>
 
 <style>
+  .btn-two h3 {
+    display: inline-block;
+    margin-bottom: 0px !important;
+    color: #ffffff;
+    font-size: clamp(18px, 2vw, 26px);
+    /* font-weight: 600;
+    line-height: 1.2; */
+    width: auto;
+    padding: 8px 22px;
+    border-radius: 999px;
+
+    /* visibility */
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(2px);
+
+    text-shadow:
+      0 2px 8px rgba(0, 0, 0, 0.55),
+      0 0 18px rgba(124, 77, 255, 0.35);
+
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+
+    /* letter-spacing: 0.3px; */
+  }
+
   .chat-widget {
     width: min(92vw, auto);
-    margin: 24px auto;
+    margin: 12px auto 0 auto;
     display: flex;
     align-items: center;
     padding: 6px;
@@ -57,7 +82,7 @@
   }
 
   .chat-widget input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: #7c4dff;
   }
 
   .chat-widget button {
