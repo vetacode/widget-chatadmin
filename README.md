@@ -1,0 +1,2 @@
+# widget-chatadmin
+component templates
